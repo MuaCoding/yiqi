@@ -179,43 +179,34 @@ textarea {
 }
 
 
-
-
-.red {
-    color: red!important;
+.bg-orange{
+    background-color: #fdc576!important;
 }
 
-.OrangeFont {
-    color: #eb0000 !important;
+.bg-primary{
+    background-color: #39bfef!important;
 }
 
-.OrangeBg {
-    background: #eb0000 !important
+.bg-gray {
+    background-color: #b9b5b5!important;
 }
 
-.black {
-    color: #333;
+.bg-blue {
+    background-color: #59a2cb!important;
+}
+
+.bg-brown {
+    background-color: #8f8f6b!important;
+}
+
+.bg-green {
+    background-color: #1ba79c!important;
 }
 
 .white {
     color: #fff!important;
 }
 
-.color-999 {
-    color: #999
-}
-
-.color-0 {
-    color: #000!important;
-}
-
-.gray {
-    color: #999!important;
-}
-
-.green {
-    color: #5fbeaa!important;
-}
 
 .bge6 {
     background: #e6e6e6;

@@ -1,8 +1,262 @@
 @charset "UTF-8";
 
-.title{
-	font-size: 18px;
-	font-weight: bold;
+#culture >.culture-item{
+	display: none;
+}
+#culture >.culture-item.on{
+	display: block;
 }
 
+.group >.need-box{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	margin: 25px 0;
+}
+
+.group>.need-box>.img-box{
+	float: left;
+	width: 140px;
+	height: 200px;
+	margin-right: 15px;
+}
+
+.group>.need-box>.need-info{
+	margin: 70px 0;
+	line-height: 32px;
+}
+
+.group>.ex-box>.ex-item{
+	position: relative;
+	padding-left: 45px;
+	margin-top: 10px;
+}	
+
+.group>.ex-box>.ex-item>.tag{
+	position: absolute;
+	left: 15px;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #a6a6a6;
+	color: #fff;
+	font-size: 13px;
+	text-align: center;
+	border-radius: 50%;
+}	
+
+.group>.ex-box>.ex-item>p{
+	color: #666666;
+	line-height: 32px;
+}
+
+
+.group>.call-box{
+	display: block;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.group>.call-box>.call-cover{
+	width: 360px;
+	height: 45px;
+	margin: 0 auto;
+}
+
+.group>.call-box>.call-cover>.call-cell{
+	float: left;
+	width: 50%;
+	line-height: 45px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+.group>.letter-box{
+    position: relative;
+    padding: 20px;
+}
+
+.group>.letter-box>li{
+	float: left;
+	width: 25%;
+}
+.group>.letter-box>li>div{
+	margin-left: 30px;
+}
+
+.group>.letter-box>li>div>.iconfont{
+	margin-left: 30px;
+	font-size: 64px;
+	color: #6aacdb;
+}
+
+.group>.letter-box>li>div>p{
+	margin-top: 10px;
+	color: #999999;
+}
+
+.group>.version-box{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 25px 0;
+}
+
+.group>.version-box li{
+	float: left;
+	width: 33.333333%;
+	padding: 15px;
+}
+
+.group>.version-box li>.version-cover{
+	display: block;
+	position: relative;
+	height: 260px;
+	padding:20px;
+	color: #fff;
+	box-shadow: 0 0 15px rgba(0,0,0,.2);
+}
+.group>.version-box>li:hover>.version-cover{
+	box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+.group>.version-box li>.version-cover>p{
+	margin-top: 15px;
+	margin-right: 70px;
+	line-height: 32px;
+	max-height: 95px;
+}
+.group>.version-box li>.version-cover>.btn{
+	position: absolute;
+	left: 20px;
+	bottom: 25px;
+	width: 120px;
+	text-align: center;
+	border: 1px solid #fff;
+}
+
+.group>.version-box li>.version-cover>.iconfont{
+	position: absolute;
+	right: 5px;
+	bottom: 0px;
+	font-size: 100px;
+}
+
+
+
+/*流程*/
+
+.flow-box{
+	position: relative;
+	margin: 20px 0;
+}
+
+.flow-box .flow-cover{
+	float: left;
+	width: 50%;
+}
+
+.flow-box .flow-cover >.head{
+	display: block;
+	width: 380px;
+	height: 45px;
+	margin: 0 auto;
+	line-height: 45px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+
+.flow-box .flow-cover >.flow-cell{
+	position: relative;
+	width: 380px;
+	margin: 20px auto;
+}
+.flow-box .flow-cover >.flow-cell>.line{
+	position: absolute;
+	left: 190px;
+	height: 560px;
+	margin: 20px 0;
+	border: 1px dashed #b9b5b5;
+}
+.flow-box .flow-cover >.flow-cell>li{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 70px;
+	z-index: 100;
+}
+.flow-box .flow-cover >.flow-cell>.left-cell>div>.tag,.right-cell>div>.tag{
+	display: inline-block;
+	position: absolute;
+    top: 15px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #b9b5b5;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 50%;
+}
+
+.flow-box .flow-cover >.flow-cell>li> div{
+	position: relative;
+	width: 190px;
+	line-height: 65px;
+}
+.flow-box .flow-cover >.flow-cell>.left-cell> div{
+	padding-right: 30px;
+}
+
+.flow-box .flow-cover >.flow-cell>.right-cell> div{
+	padding-left: 30px;
+}
+
+.flow-box .flow-cover >.flow-cell>.left-cell>div{
+	text-align: right;
+}
+.flow-box .flow-cover >.flow-cell>.right-cell>div{
+	float: right;
+	text-align: left;
+}
+.flow-box .flow-cover >.flow-cell>.left-cell>div>.tag{
+	right: -18px;
+}
+
+.flow-box .flow-cover >.flow-cell>.right-cell>div>.tag{
+	left: -18px;
+}
+.flow-box .flow-cover >.flow-cell>.center-cell{
+	text-align: center;
+	height: 105px;
+	margin-bottom: 30px;
+}
+.flow-box .flow-cover >.flow-cell>.center-cell>.lg-tag{
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+	background-color: #39bfef;
+	text-align: center;
+	color: #fff;
+	font-size: 36px;
+	border-radius: 50%;
+}
+.flow-box .flow-cover >.flow-cell>.center-cell>p{
+	line-height: 36px;
+	background-color: #fff;
+}
+
+.flow-box .vs{
+  	position: absolute; 
+  	top: 0; 
+  	left: 0; 
+  	bottom: 0; 
+  	right: 0; 
+  	overflow: auto; 
+  	width: 60px; 
+  	height: 65px; 
+  	margin: auto; 
+}
 

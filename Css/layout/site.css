@@ -109,6 +109,18 @@ img {
 ***********************
 */
 
+.wrapper{
+    width: 1190px;
+    padding: 20px;
+    margin: 30px auto 50px;
+    border: 1px solid #e6e6e6;
+}
+
+.content {
+    width: 1190px;
+    margin: 35px auto;
+}
+
 .header {
     position: relative;
     width: 100%;
@@ -149,6 +161,7 @@ img {
 .header .logo{
     float: left;
     width: 140px;
+    margin-left: 15px;
 }
 
 .top {
@@ -213,6 +226,110 @@ img {
     color: #333;
 }
 
+/*子页banner*/
+.banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+.banner .mobile-banner {
+    display: none
+}
+
+/*副标题*/
+.tabs {
+    position: relative;
+    margin-top: 25px;
+}
+
+.tabs>.tab{
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.tabs>.tab.on{
+    background-color: #21BFED;
+    color: #fff;
+} 
+
+.tabs>.tab.on:before,.tabs>.tab.on:after{
+    content: ' ';
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 100%;
+    border: 10px solid; 
+    border-color: #21BFED transparent transparent transparent;
+}
+
+
+.tabs>.tab.on:before{
+    left: 45%;
+}
+.tabs>.tab.on:after{
+    left: 45%;
+}
+
+/*三角*/
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 8px solid;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    vertical-align: middle;
+}
+
+/*专业*/
+
+.img-box{
+    overflow: hidden;
+    width: 100%;
+    height: 471px;
+}
+
+.content.pd15{
+    padding: 0 15px;
+}
+
+.reg-box{
+    position: relative;
+    padding: 20px;
+    background-color: #F5F5F5;
+}
+
+.reg-box li{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 25%;
+}
+
+.reg-box li>div>.iconfont{
+    display: block;
+    font-size: 36px;
+}
+
+.reg-box li>div>h3{
+    display: inline-block;
+    padding-right: 20px;
+    line-height: 36px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.reg-box li>div>p{
+    margin-top: 10px;
+    color: #737373;
+}
+
+/*底部*/
 
 footer{
     height: 350px;
@@ -279,7 +396,7 @@ footer{
     float: right;
     margin-top: 32px;
     padding: 0 0 20px 40px;
-    text-align: right;
+    text-align: left;
     color: #fff;
     box-shadow: -1px 0 0 #454545, -2px 0 0 #212121;
 }
@@ -306,6 +423,7 @@ footer{
 }
 
 .footer .bottom-link{
+    display: block;
     border-top: 1px solid #464646;
     text-align: center;
     color: #bbb;

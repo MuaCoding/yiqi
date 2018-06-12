@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 .banner-box{
     overflow: hidden;
@@ -15,14 +16,14 @@
 .banner-box >.swiper-container>.control-item{
     display: inline-block;
     position: absolute;
-    z-index: 2;
-    top: 50%;
-    margin-top: -35px;
     height: 70px;
     width: 35px;
-    line-height: 70px;
-    text-align: center;
+    top: 50%;
+    margin-top: -35px;
+    z-index: 2;
     background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    line-height: 70px;
     cursor: pointer;
     opacity: 0;
     text-decoration: none;
@@ -59,9 +60,9 @@
 
 .banner-box >.swiper-container >.swiper-wrapper >.swiper-slide >img{
     position: relative;
-    z-index: 1;
     width: 100%;
     min-height: 100%;
+    z-index: 1;
 }
 
 .banner .mobile-banner{
@@ -70,10 +71,10 @@
 
 
 .index-main-content{
-    height: 100%;
     position: relative;
-    z-index: 1;
+    height: 100%;
     min-width: 100%;
+    z-index: 1;
 }
 
 
@@ -103,12 +104,12 @@
 
 .index-title .small-title >.marker:before, .index-title .small-title >.marker:after {
     content: '';
+    display: block;
     position: absolute;
     width: 50px;
     height: 2px;
-    display: block;
-    background: #b5b5b5;
     top: 10px;
+    background: #b5b5b5;
 }
 
 .index-title .small-title >.marker:before {
@@ -119,11 +120,6 @@
     right: 0;
 }
 
-
-.content {
-    width: 1190px;
-    margin: 35px auto;
-}
 
 .slide-box{
     position: relative;
@@ -139,12 +135,12 @@
 
 .slide-box>.slide-swiper>.swiper-wrapper>.swiper-slide{
     display: flex;
-    text-align: center;
     background-color: #eee;
     background: url(/Images/bg_qualification.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
@@ -153,11 +149,11 @@
 .slide-box >.control-item {
     display: inline-block;
     position: absolute;
-    z-index: 2;
+    width: 45px;
+    height: 70px;
     top: 50%;
     margin-top: -35px;
-    height: 70px;
-    width: 45px;
+    z-index: 2;
     line-height: 75px;
     text-align: center;
     cursor: pointer;
@@ -167,10 +163,10 @@
     color: #b3b3b3;
 }
 .slide-box >.control-item.control-left{
-    left: -45px;
+    left: -80px;
 }
 .slide-box >.control-item.control-right{
-    right: -45px;
+    right: -80px;
 }
 
 .slide-box>.slide-swiper>.swiper-wrapper>.swiper-slide >.slide-con{
@@ -190,8 +186,10 @@
     margin-left: 5px;
 }
 
+
+
 .content .promise-box{
-    margin: 30px 55px 0;
+    margin: 30px 15px 0;
 }
 
 .content .promise-box li{
@@ -199,8 +197,11 @@
     float: left;
     overflow: hidden;
     width: 25%;
-    padding: 20px 30px;
+    padding: 20px 20px;
     border-right: 2px solid #e6e6e6;
+}
+.content .promise-box li:last-child{
+    margin-right: 0;
 }
 
 .content .promise-box li>h2{
@@ -223,7 +224,7 @@
 }
 
 .content .major-box{
-    margin: 30px 40px 0;
+    margin-top: 30px;
 }
 
 .content .major-box li{
@@ -253,21 +254,64 @@
     color: #fff;
     font-size: 18px;
     text-align: right;
-    word-spacing:8px; 
+    word-spacing: 8px; 
     letter-spacing: 3px;
 }
 
 
+.content .about-box{
+    margin-top: 30px;
+}
+
+.content .about-box>.img-box{
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    width: 260px;
+    height: 150px;
+    margin: 15px;
+    border: 2px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.content .about-box>.about-info{
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    width: 885px;
+    max-height: 150px;
+    margin: 15px 0;
+    padding: 15px 0; 
+    line-height: 26px;
+    color: #737373;
+    font-size: 16px;
+}
 
 
+.content >.btn-box{
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}
 
+.content >.btn-box>a{
+    display: inline-block;
+    width: 120px;
+    margin: 0 auto;
+    line-height: 35px;
+    border: 1px solid #39BFEF;
+    color: #39BFEF;
+    text-align: center;
+}
 
+.content .cooperation-box{
+    margin-top: 30px;
+}
 
-
-
-
-
-
+.content .cooperation-box li {
+    float: left;
+    width: 20%;
+}
 
 
 

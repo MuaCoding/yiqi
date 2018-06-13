@@ -118,9 +118,10 @@
 .group>.version-box>li:hover>.version-cover{
 	box-shadow: 0 0 15px rgba(0,0,0,.5);
 }
+.group>.version-box li>.version-cover>h3{
+	margin-bottom: 15px;
+}
 .group>.version-box li>.version-cover>p{
-	margin-top: 15px;
-	margin-right: 70px;
 	line-height: 32px;
 	max-height: 95px;
 }
@@ -341,40 +342,99 @@
 	margin-top: 15px;
 }
 
-.group .commit-box li{
+.group .commit-box li, .group .classify-box li{
 	float: left;
 	width: 33.3333333333%;
+
 }
-.group .commit-box li>.commit-cover{
+.group .commit-box li .commit-cover, .group .classify-box li .classify-cover{
 	height: 200px;
-	padding: 25px;
+	padding: 25px; 
 	text-align: center;
+	cursor: pointer;
 }
-.group .commit-box li>.commit-cover>h3{
+.group .commit-box li .commit-cover>h3{
 	margin-top: 15px;
 	font-size: .24rem;
 }
-.group .commit-box li>.commit-cover>p{
+.group .commit-box li .commit-cover>p{
 	margin-top: 15px;
 	line-height: 26px;
 	font-size: .15rem;
 }
 
-.group .commit-box li>.commit-cover>.iconfont{
+.group .commit-box li .commit-cover .iconfont, .group .classify-box li .classify-cover .iconfont{
+	display: inline-block;
 	font-size: .48rem;
 }
-.group .commit-box li:nth-child(odd){
+.group .commit-box li:nth-child(odd),.group .classify-box li:nth-child(odd){
 	background-color: #F5F5F5;
 }
-.group .commit-box li:nth-child(even){
+.group .commit-box li:nth-child(even),.group .classify-box li:nth-child(even){
 	background-color: #FBFCFE;
 }
-.group .commit-box li:nth-child(odd)>.commit-cover>.iconfont{
+.group .commit-box li:nth-child(odd) .commit-cover .iconfont{
 	color: #000000;
 }
-.group .commit-box li:nth-child(even)>.commit-cover>.iconfont{
+.group .commit-box li:nth-child(even) .commit-cover .iconfont{
 	color: #0F9BEA;
 }
+
+
+
+/*电信增值服务*/
+.group .classify-box li .classify-cover> h3{
+	margin-top: 25px;
+	font-size: .22rem;
+}
+.group .classify-box li .classify-cover .iconfont{
+	margin-top: 25px;
+	color: #3191a5;
+}
+
+
+.group .handle-box{
+    margin-top: 25px;
+    padding: 25px;
+    background-color: #F5F5F5;
+}
+
+.group .handle-box li{
+	float: left;
+	width: 25%;
+}
+
+.group .handle-box li>.handle-cover{
+	display:block;
+	padding: 15px;
+	text-align: center;
+}
+.group .handle-box li>.handle-cover>.iconfont{
+	font-size: .48rem;
+	color: #a6a6a6;
+}
+.group .handle-box li>.handle-cover>p{
+    margin-top: 15px;
+    font-size: .18rem;
+}
+
+.group .service-box li{
+	float: left;
+	width: 20%;
+}
+
+.group .service-box li>.service-cover{
+	display:block;
+	padding: 15px;
+	text-align: center;
+}
+
+.group .service-box li>.service-cover>.img-box{
+	width: 120px;
+	height: 120px;
+	margin: auto;
+}
+
 
 
 /*流程图*/

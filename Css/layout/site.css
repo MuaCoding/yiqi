@@ -342,6 +342,8 @@ img {
     width: 2px;
     height: 25px;
 }
+
+
 .little-title>h3>.tips{
     display: inline-block;
     color: #989898;
@@ -460,4 +462,40 @@ footer{
     padding-left: 25px;
     color: #939393;
     background: url('../Images/ga_ico.png') left no-repeat;
+}
+
+
+
+/*css3*/
+
+.group .commit-box li:hover i.iconfont, .group .classify-box li:hover i.iconfont{
+   -webkit-animation: rotate_360 .5s linear;
+    -moz-animation: rotate_360 .5s linear;
+    animation: rotate_360 .5s linear;
+}
+
+/*动画 start*/
+@-webkit-keyframes rotate_360 {
+    from{
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to{
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+}
+@keyframes rotate_360 {
+    from{
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to{
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
 }

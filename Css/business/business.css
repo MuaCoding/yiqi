@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#business >.business-item{
+	display: none;
+}
+#business >.business-item.on{
+	display: block;
+}
+
+.group .sele-box li{
+	float: left;
+	width: 50%;
+}
+
+.group .sele-box li .sele-cover{
+	display: block;
+	height: 250px;
+	margin: 10px 60px;
+	padding:20px;
+	color: #7c7c7c;
+	text-align: center;
+	background-color: #f3f3f3;
+}
+
+.group .sele-box li .sele-cover .iconfont{
+	display: inline-block;
+	font-size: .64rem;
+	margin: 35px auto;
+}
+
+.group .sele-box li .sele-cover>h3{
+	font-size: .18rem;
+}
+
+.group .sele-box li .sele-cover>p{
+	margin-top: 5px;
+	color: #6dabda;
+}

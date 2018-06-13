@@ -35,7 +35,7 @@ jQuery.support.cors = !0;
 )(jQuery);
 (function() {
     $("img.lazy").lazy();
-    $("html").hasClass("ua-mobile") && (window.location.href = mobileSite)
+    // $("html").hasClass("ua-mobile") && (window.location.href = mobileSite)
 }
 )();
 function setCookie(a, b) {

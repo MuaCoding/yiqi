@@ -35,9 +35,6 @@ a:link {
     text-decoration: none
 }
 
-h3 {
-    margin-top: 0!important
-}
 
 ol,ul {
     margin-top: 0;
@@ -257,23 +254,19 @@ img {
     color: #fff;
 } 
 
-.tabs>.tab.on:before,.tabs>.tab.on:after{
+.tabs>.tab.on:before{
     content: ' ';
     position: absolute;
     height: 0;
     width: 0;
-    top: 100%;
-    border: 10px solid; 
-    border-color: #21BFED transparent transparent transparent;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -10px;
+    border-width:10px 10px 0;
+    border-style:solid;
+    border-color:#21BFED transparent transparent;
 }
 
-
-.tabs>.tab.on:before{
-    left: 45%;
-}
-.tabs>.tab.on:after{
-    left: 45%;
-}
 
 
 /*专业*/
@@ -334,6 +327,7 @@ img {
     line-height: 32px;
 }
 .little-title >h3{
+    line-height: 26px;
     font-size: .2rem;
 }
 .little-title >span{
@@ -347,6 +341,11 @@ img {
     float: left;
     width: 2px;
     height: 25px;
+}
+.little-title>h3>.tips{
+    display: inline-block;
+    color: #989898;
+    font-size: 13px;
 }
 /*底部*/
 

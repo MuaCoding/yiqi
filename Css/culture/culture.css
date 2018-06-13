@@ -7,8 +7,8 @@
 	display: block;
 }
 
+
 .group >.need-box{
-	display: block;
 	position: relative;
 	overflow: hidden;
 	margin: 25px 0;
@@ -53,7 +53,6 @@
 
 
 .group>.call-box{
-	display: block;
 	margin-bottom: 30px;
 	text-align: center;
 }
@@ -97,7 +96,6 @@
 }
 
 .group>.version-box{
-	display: block;
     position: relative;
     overflow: hidden;
     margin: 25px 0;
@@ -126,13 +124,15 @@
 	line-height: 32px;
 	max-height: 95px;
 }
-.group>.version-box li>.version-cover>.btn{
+.group>.version-box li>.version-cover>.btn-box{
 	position: absolute;
 	left: 20px;
-	bottom: 25px;
-	width: 120px;
+	bottom: 20px;
+	width: 120px; 
+	padding: 10px;
 	text-align: center;
 	border: 1px solid #fff;
+	cursor: pointer;
 }
 
 .group>.version-box li>.version-cover>.iconfont{
@@ -142,9 +142,242 @@
 	font-size: 100px;
 }
 
+.group>.why-box{
+    position: relative;
+    overflow: hidden;
+    margin: 25px 0;
+}
+
+.group>.why-box li{
+	float: left;
+	width: 25%;
+	padding: 15px;
+}
+
+.group>.why-box li>.why-cover{
+	display: block;
+	position: relative;
+	height: 180px;
+	padding: 20px;
+	background: url('/Images/bg_version.jpg') no-repeat top center;
+	color: #fff;
+}
+
+.group>.why-box li>.why-cover>p{
+	display: block;
+	position: absolute;
+	bottom: 15px;
+	left: 0
+	line-height: 26px;
+}
+
+.group>.how-box{
+    position: relative;
+    overflow: hidden;
+    margin: 25px 0;
+}
+.group>.how-box li{
+	float: left;
+	width: 50%;
+	padding: 15px;
+}
+.group>.how-box li>.how-cover{
+	display: block;
+	position: relative;
+	height: 280px;
+	border: 1px solid #E3E8F1;
+	box-shadow: 0 3px 5px #E3E8F1;
+}
+.group>.how-box li>.how-cover>.head{
+	position: relative;
+	height: 55px;
+	line-height: 55px;
+	background-color: #636885;
+	color: #fff;
+	font-size: .24rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.group>.how-box li>.how-cover>.head>.cert{
+    position: relative;
+	right: 0;
+	top: 0;
+	float: right;
+	width: 0;
+    height: 0;
+    border-width: 0 40px 40px 0;
+    border-style: solid;
+    border-color: transparent #31364C transparent transparent;
+}
+.group>.how-box li>.how-cover>.head>.cert-cover{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+    height: 0;
+    border-width: 0 40px 40px 0;
+    border-style: solid;
+    border-color: transparent  transparent #636885 transparent;
+    z-index: 10;
+}
+
+.group>.how-box li>.how-cover>.head>.cert>em{
+	position: absolute;
+	right: -45px;  
+    top: 0; 
+	width: 40px;
+	line-height: 40px;
+	font-size: .26rem;
+	text-align: center;
+	z-index: 1;
+}
+.group>.how-box li>.how-cover>.con{
+	display: block;
+	padding: 15px;
+	height: 185px;
+}
 
 
-/*流程*/
+.article-cell{
+	position: relative;
+	padding-left: 30px;
+}
+.article-cell>.tag{
+	position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #a6a6a6;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 50%;
+}
+.article-cell>p{
+    color: #666666;
+    line-height: 32px;
+}
+
+
+.group>.how-box li>.how-cover>.bottom{
+	display: block;
+	height: 40px;
+}
+.group>.how-box li>.how-cover>.bottom>a{
+	display: inline-block;
+	float: left;
+	padding: 0 15px;
+	line-height: 40px;
+	color: #57C8EC;
+}
+
+.group>.bid-box{
+	margin-top: 25px;
+	padding: 25px;
+	background-color: #F5F5F5;
+}
+.group>.bid-box li{
+	float: left;
+	width: 20%;
+}
+
+.group>.bid-box li>.bid-cover{
+	position: relative;
+	padding: 0 15px;
+	color: #A6A6A6;
+	text-align: center;
+}
+.group>.bid-box li>.bid-cover>.iconfont{
+	font-size: .65rem;
+}
+
+.group>.bid-box li>.bid-cover>p{
+	margin-top: 10px;
+	font-size: .13rem;
+}
+.group>.bid-box li>.bid-cover>.next-tag{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -15px;
+	color: #39BDED;
+	font-size: .32rem;
+}
+
+.group>.possible-box{
+	padding: 10px 25px;
+}
+.group>.possible-box li{
+	float: left;
+	width: 20%;
+}
+
+.group>.possible-box li>.possible-cover{
+	width: 150px;
+	height: 150px;
+	padding: 25px 15px;
+	margin: auto;
+	text-align: center;
+	border: 1px solid #F0F0F0;
+	border-radius: 6px;
+}
+
+.group>.possible-box li>.possible-cover>.iconfont{
+	display: inline-block;
+	margin-top: 10px;
+	color: #109CE9;
+	font-size: .48rem;
+}
+.group>.possible-box li>.possible-cover>.icon-icp{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.group>.possible-box li>.possible-cover>p{
+	margin-top: 15px;
+}
+
+.group .commit-box li{
+	float: left;
+	width: 33.3333333333%;
+}
+.group .commit-box li>.commit-cover{
+	height: 200px;
+	padding: 25px;
+	text-align: center;
+}
+.group .commit-box li>.commit-cover>h3{
+	margin-top: 15px;
+	font-size: .24rem;
+}
+.group .commit-box li>.commit-cover>p{
+	margin-top: 15px;
+	line-height: 26px;
+	font-size: .15rem;
+}
+
+.group .commit-box li>.commit-cover>.iconfont{
+	font-size: .48rem;
+}
+.group .commit-box li:nth-child(odd){
+	background-color: #F5F5F5;
+}
+.group .commit-box li:nth-child(even){
+	background-color: #FBFCFE;
+}
+.group .commit-box li:nth-child(odd)>.commit-cover>.iconfont{
+	color: #000000;
+}
+.group .commit-box li:nth-child(even)>.commit-cover>.iconfont{
+	color: #0F9BEA;
+}
+
+
+/*流程图*/
 
 .flow-box{
 	position: relative;

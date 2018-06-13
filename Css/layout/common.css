@@ -208,36 +208,6 @@ textarea {
 }
 
 
-.bge6 {
-    background: #e6e6e6;
-}
-
-.bgf6 {
-    background: #f6f6f6;
-}
-
-.bgc6 {
-    background: #c6c6c6;
-}
-
-.bgfff {
-    background: #fff!important;
-}
-
-.minH {
-    min-height: auto!important;
-}
-
-.lineauto {
-    line-height: 2
-}
-
-/*表单公用*/
-.cruDiv {
-    cursor: pointer;
-    display: inline-block;
-}
-
 /*距离*/
 .mtf2 {
     margin-top: -2px!important
@@ -724,36 +694,6 @@ textarea {
     font-size: .2rem
 }
 
-.yellow {
-    color: #fc8b00
-}
-
-.green {
-    color: #79c808
-}
-
-.red {
-    color: #c50400
-}
-
-.blue {
-    color: #117ab5
-}
-
-.black {
-    color: #121212
-}
-
-.gray {
-    color: #666
-}
-
-.Animation {
-    -webkit-transition: all .3s ease-in-out 0s;
-    -moz-transition: all .3s ease-in-out 0s;
-    -ms-transition: all .3s ease-in-out 0s;
-    transition: all .3s ease-in-out 0s
-}
 
 .flex {
     display: -webkit-box;
@@ -813,25 +753,14 @@ textarea {
     transition: all .3s ease-in-out 0s
 }
 
-.bggray {
-    background-color: #f7f7f7!important
-}
-
 .show {
     display: block!important
-}
-
-.bgfff {
-    background-color: #fff!important
 }
 
 .noshadow {
     box-shadow: none!important
 }
 
-.fontfff {
-    color: #fff!important
-}
 
 .foot-bottom {
     margin-bottom: 75px!important

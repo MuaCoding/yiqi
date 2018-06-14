@@ -41,6 +41,8 @@
 	font-size: .15rem;
 }
 
+
+
 .group .overview-box{
 	position: relative;
 	width: 100%;
@@ -112,17 +114,199 @@
 .group .process-box li .process-cover {
 	display: block;
 	padding: 15px;
+	color: #a6a6a6;
 }
 .group .process-box li .process-cover .iconfont{
     font-size: .48rem;
 }
-
+.group .process-box li .process-cover h3{
+	width: 80px;
+	padding: 10px;
+	font-size: .18rem;
+	border-bottom: 1px solid #a6a6a6;
+}
+.group .process-box li .process-cover p{
+	margin-top: 10px;
+}
 .group .process-box li .process-cover .next-tag{
     position: absolute;
     right: 0;
     top: 50%;
     color: #39BDED;
     font-size: .32rem;
+}
+
+
+/*需要准备的材料*/
+
+.group .datum-box{
+	width: 500px;
+	margin: 25px auto;
+}
+
+.group .datum-box li{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.group .datum-box li .step-box{
+	display: inline-block;
+	margin: 15px;
+	width: 150px;
+}
+
+.group .datum-box li .step-box.sm-box{
+	width: 120px;
+}
+.group .info-box{
+	margin-top: 15px;
+	text-align: center;
+}
+.group .info-box .tag{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	background-color: #21bfed;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.group .info-box span + span{
+	margin-left: 25px;
+}
+
+.group .obtain-box{
+	width: 800px;
+	margin: 25px auto;
+}
+
+.group .obtain-box li{
+	float: left;
+	width: 33.3333333%;
+}
+
+.group .obtain-box li .obtain-cover .head{
+	line-height: 55px;
+	background-color: #bf7501;
+	color: #fff;
+	font-size: .18rem;
+	text-align: center;
+
+}
+.group .obtain-box li .obtain-cover .obtain-cell{
+	display: block;
+	padding: 25px 20px;
+	min-height: 182px;
+	border: 1px solid #dddddd;
+	text-align: center;
+}
+
+.group .obtain-box li .obtain-cover .obtain-cell p{
+	margin: 10px;
+	color: #666666;
+}
+
+.group .register-box{
+	position: relative;
+	width: 100%;
+    max-width: 100%;
+	height: 400px;
+	color: #fff;
+	background: url('/Images/bg_register.jpg') center center no-repeat;
+    background-size: cover;
+}
+.group .register-box  {
+	padding: 70px 20px;
+}
+.group .register-box .sm-cell{
+	width: 350px;
+	margin: auto;
+	padding: 0 20px;
+	line-height: 55px;
+	color: #fff;
+	text-align: center;
+}
+
+.group .register-box .sm-cell.bg-register {
+	background-color: rgba(18,59,78,.8);
+}
+
+.group .register-box .lg-cell{
+	margin: 40px auto;
+	padding: 0 20px;
+	color: #436e82;
+	font-size: .48rem;
+	-webkit-text-stroke: .3px #fff;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.group .path-box li{
+	float: left;
+	width: 16.6666666%;
+}
+.group .path-box .path-cover {
+	position: relative;
+	padding: 15px;
+	color: #a6a6a6;
+	text-align: center;
+}
+.group .path-box .path-cover .iconfont{
+	font-size: .48rem;
+}
+
+.group .path-box .path-cover .next-tag{
+	position: absolute;
+    right: 0;
+    top: 50%;
+	color: #000;
+    font-size: .2rem;
+}
+.group .path-box .path-cover p{
+	margin-top: 10px;
+}
+
+/*注册公司准备材料*/
+.group .worth-box li{
+	float: left;
+	width: 20%;
+	padding: 15px;
+}
+
+.group .worth-box li .worth-cover{
+	display: block;
+	position: relative;
+	min-height: 276px;
+	padding: 20px;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.group .worth-box li .worth-cover:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+.group .worth-box li .worth-cover:before{
+    display: block;
+	position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50px;
+    height: 2px;
+    margin-left: -25px;
+    background-color: #39bfef;
+    content: '';
+}
+
+.group .worth-box li .worth-cover .worth-avatar{
+	display: inline-block;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.group .worth-box li .worth-cover p{
+	margin-top: 30px;
 }
 
 /*多种地址选择*/

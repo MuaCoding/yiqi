@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#property >.property-item{
+	display: none;
+}
+#property >.property-item.on{
+	display: block;
+}
+
+.group .solve-box li{
+	float: left;
+	width: 25%;
+	padding: 15px;
+}
+
+.group .solve-box li .solve-cover{
+	display: block;
+	padding: 15px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 15px rgba(0,0,0,.2);
+}
+
+.group .solve-box li .solve-cover .img-box{
+	width: 100px;
+	height: 100%;
+	margin: auto;
+}

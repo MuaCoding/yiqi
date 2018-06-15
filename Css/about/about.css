@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+
+.content .company-info p{
+	padding: 30px 0;
+    text-indent: 25px;
+    line-height: 30px;
+}
+
+
+.content .map .map-box{
+    padding: 15px 20px 0;
+}
+
+.content .map .map-box #allmap{
+    width: 100%;
+    height: 300px;
+}
+
+.content .map .contact-list{
+    padding: 20px 100px;
+    overflow: hidden;
+    font-size: .14rem;
+}
+.content .map .contact-list li{
+    position: relative;
+    float: left;
+    width: 25%;
+    padding: 20px;
+    color: #999;
+    text-align: center;
+}
+
+.content .map .contact-list li .contact-icon1{
+    width: 0;
+    margin: 0 auto;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    border-bottom: 30px solid #999;
+}
+
+.content .map .contact-list li .contact-icon2{
+    position: relative;
+    width: 104px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #999;
+}
+
+.content .map .contact-list li .contact-icon3{
+    width: 0;
+    margin: 0 auto 30px;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    border-top: 30px solid #999;
+}
+
+.content .map .contact-list li i{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+}
+.content .map .contact-list li i:before{
+    font-size: 60px;
+    color: #fff;
+}
+.content .map .contact-list li .phone{
+    padding: 20px 0 0;
+    margin: 20px;
+    border-top: 1px solid #e8e8e8;
+    font-size: .12rem;
+}
+.content .promt{
+	margin-top: 40px;
+}
+.content .input-group {
+	width: 100%;
+}
+.content .input-group .input-cell{
+	float: left;
+	width: 50%;
+	margin-top: 25px;
+	padding-right: 15px;
+}
+.content .input-group .input-cell:nth-child(2n){
+	padding-right: 0;
+}
+.content .input-group .input-cell label{
+	display: block;
+	margin-bottom: 10px;
+}
+.content .input-group .input-cell .input-control{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #e8e8e8;
+}
+
+.content .input-textarea{
+	position: relative;
+	display: block;
+	margin-top: 25px;
+}
+.content .input-textarea .textarea-label{
+	margin-bottom: 10px;
+}
+
+.content .input-textarea .textarea-control{
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #e8e8e8;
+}
+
+.content .code-group{
+	margin-top: 25px;
+}
+.content .code-group .code-cover{
+	float: left;
+	width: 120px;
+	height: 40px;
+	border: 1px solid #e8e8e8;
+}
+.content .code-group span{
+	float: left;
+	line-height: 40px;
+	margin-left: 15px;
+	color: #679FFA;
+}
+
+.content .button{
+	margin-top: 25px;
+}
+.content .button .btn-md{
+	display: block;
+    padding: 6px 30px;
+    color: #fff;
+    font-size: 0.16rem;
+    line-height: 25px;
+	background-color: #21BFED;
+}

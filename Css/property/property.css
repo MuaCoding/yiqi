@@ -10,18 +10,152 @@
 .group .solve-box li{
 	float: left;
 	width: 25%;
-	padding: 15px;
+	padding: 10px;
 }
 
 .group .solve-box li .solve-cover{
 	display: block;
-	padding: 15px;
+	height: 250px;
+	padding: 25px;
 	background-color: #FFFFFF;
-	box-shadow: 0 0 15px rgba(0,0,0,.2);
+	text-align: center;
+	box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+
+.group .solve-box li:nth-child(even) .solve-cover .img-box{
+	width: 120px;
 }
 
 .group .solve-box li .solve-cover .img-box{
 	width: 100px;
-	height: 100%;
+	height: 100px;
 	margin: auto;
+}
+
+.group .solve-box li .solve-cover h3{
+	margin-top: 25px;
+	font-size: .18rem;
+}
+
+.group .solve-box li .solve-cover p{
+	margin-top: 10px;
+}
+
+.group .want-box li{
+	float: left;
+	width: 20%;
+	padding: 25px 15px;
+}
+
+.group .want-box li .want-cover{
+	display: block;
+	padding: 15px;
+	text-align: center;
+}
+
+.group .want-box li .want-cover .img-box{
+	display: inline-block;
+}
+.group .want-box li:last-child .want-cover .img-box{
+    width: 100px;
+}
+
+.group .want-box li .want-cover h3{
+	margin-top: 25px;
+	font-size: .18rem;
+}
+
+.group .enroll-box{
+	width: 500px;
+	margin: auto;
+}
+
+.group .demand-box .demand-cover{
+	float: left;
+	width: 50%;
+	padding: 15px;
+}
+.group .demand-box .demand-cover .demand-name{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background-color: #97d0fb;
+    color: #fff!important;
+    text-align: center!important;
+    font-size: .18rem;
+}
+.group .demand-box .demand-cover:hover .demand-name{
+	background-color: #3889ff;
+}
+.group .demand-box .demand-cover ul{
+	padding: 10px 0;
+	background-color: #f7f7f7;
+}
+
+.group .demand-box .demand-cover ul li{
+	padding: 10px 20px;
+    line-height: 25px;
+    font-size: .16rem;
+    color: #666;
+
+}
+.group .means-box li{
+	width: 50%;
+	float: left;
+	padding: 20px;
+}
+
+.group .means-box li .means-cover{
+	display: block;
+	padding: 15px;
+	background-color: #f6f6f6;
+}
+
+.group .means-box li .means-cover .means-name{
+	margin-bottom: 10px;
+	color: #1e5165;
+	font-weight: bold;
+	font-size: 0.18rem;
+}
+.group .means-box li .means-cover p{
+	line-height: 28px;
+}
+
+.group >.get-box{
+	position: relative;
+	overflow: hidden;
+	margin: 25px 0;
+}
+
+.group> .get-box> .img-box{
+	float: left;
+	width: 140px;
+	height: 200px;
+	margin-right: 15px;
+}
+
+.group .aegis-box li{
+	width: 25%;
+	float: left;
+	padding: 15px;
+}
+
+.group .aegis-box li .aegis-cover{
+	display: block;
+	padding: 25px 15px;
+	text-align: center;
+	background-color: #efefef;
+	box-shadow: 6px 6px 3px rgba(0,0,0,.1);
+
+}
+
+.group .aegis-box li .aegis-cover .aegis-img{
+	display: inline-block;
+	width: 116px;
+	height: 116px;
+}
+
+.group .aegis-box li .aegis-cover h3{
+	margin-top: 15px;
+	font-size: .18rem;
 }

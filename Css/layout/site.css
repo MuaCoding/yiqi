@@ -271,11 +271,6 @@ img {
 
 /*专业*/
 
-.img-box{
-    overflow: hidden;
-    width: 100%;
-    height: 471px;
-}
 
 .content.pd15{
     padding: 0 15px;
@@ -371,7 +366,7 @@ footer{
 
 .footer .bottom-list li {
     float: left;
-    width: 120px;
+    width: 130px;
     height: 190px;
     padding: 0 15px;
 }

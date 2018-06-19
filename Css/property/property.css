@@ -159,3 +159,129 @@
 	margin-top: 15px;
 	font-size: .18rem;
 }
+
+.group .brand-box{
+	position: relative;
+	width: 100%;
+    max-width: 100%;
+	height: 400px;
+	background: url('/Images/bg_trade.jpg') center center no-repeat;
+    background-size: cover;
+}
+.group .brand-box .brand-name{
+   	height: 180px;
+   	line-height: 210px;
+	color: #1A9698;
+	text-align: center;
+}
+.group .brand-box .brand-name>h2{
+	display: inline-block;
+	font-size: .5rem;
+}
+
+.group .brand-box .brand-info{
+   	height: 220px;
+	background-color: rgba(120,215,243,.8);
+	color: #fff;
+	text-align: center;
+}
+
+.group .brand-box .brand-info li{
+	float: left;
+	width: 33.33333%;
+	padding: 15px;
+}
+
+.group .brand-box .brand-info li .brand-cover{
+	padding: 25px;
+}
+.group .brand-box .brand-info li + li .brand-cover{
+	border-left: 2px solid #fff;
+}
+.group .brand-box .brand-info li .brand-cover .iconfont{
+	font-size: .52rem;
+}
+.group .brand-box .brand-info li .brand-cover>h2{
+	margin-top: 16px;
+	font-size: .18rem;
+}
+.group .brand-box .brand-info li .brand-cover>p{
+	margin-top: 10px;
+	font-size: .15rem;
+}
+
+.group .constitute-box li{
+	float: left;
+	width: 33.33333%;
+	padding: 15px;
+}
+
+.group .constitute-box li .constitute-cover{
+	display: block;
+	padding-left: 25px;
+	text-align: center;
+}
+
+.group .constitute-box li .constitute-cover .bg-iconfont{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	line-height: 125px;
+	color: #fff;
+	text-align: center;
+	background-color: #28DAFE;
+	border-radius: 50%;
+}
+
+.group .constitute-box li .constitute-cover .bg-iconfont .iconfont{
+	font-size: .48rem;
+}
+
+.group .constitute-box li .constitute-cover h3{
+	margin-top: 15px;
+	font-size: .24rem;
+}
+
+.group .constitute-box li .constitute-cover p{
+	margin-top: 15px;
+}
+
+.group .wander-box li{
+	float: left;
+	width: 20%;
+	padding: 15px;
+}
+
+.group .wander-box li .wander-cover {
+	display: block;
+	position: relative;
+	padding: 15px;
+	text-align: center;
+}
+.group .wander-box li .wander-cover .bg-iconfont{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	line-height: 125px;
+	color: #28DAFE;
+	text-align: center;
+	border: 1px solid #28DAFE;
+	border-radius: 50%;
+}
+.group .wander-box li .wander-cover .iconfont{
+	font-size: .48rem;
+}
+.group .wander-box li .wander-cover h3{
+	margin-top: 15px;
+	font-size: .20rem;
+}
+
+.group .wander-box li .wander-cover p{
+	margin-top: 15px;
+}
+.group .wander-box li .wander-cover .wander-next{
+	position: absolute;
+	top: 25%;
+	right: 0;
+	font-size: .24rem;
+}

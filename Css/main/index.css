@@ -159,7 +159,7 @@
     cursor: pointer;
 }
 .slide-box >.control-item>i{
-    font-size: 32px;
+    font-size: .18rem;
     color: #b3b3b3;
 }
 .slide-box >.control-item.control-left{
@@ -168,7 +168,9 @@
 .slide-box >.control-item.control-right{
     right: -80px;
 }
-
+.slide-box>.slide-swiper>.swiper-wrapper>.swiper-slide{
+    padding: 15px;
+}
 .slide-box>.slide-swiper>.swiper-wrapper>.swiper-slide >.slide-con{
     color: #fff;
     text-align: left;
@@ -186,8 +188,34 @@
     margin-left: 5px;
 }
 
+.content .capital-box {
+    display: none;
+    margin-top: 30px;
+}
+
+.content .capital-box li{
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
 
 
+.content .capital-box li .capital-cover{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.content .capital-box li .capital-cover p{
+    margin-top: 15px;
+}
+.content .capital-box li .capital-cover a{
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+}
 .content .promise-box{
     margin: 30px 15px 0;
 }
@@ -198,6 +226,7 @@
     overflow: hidden;
     width: 25%;
     padding: 20px 20px;
+    margin-bottom: 15px;
     border-right: 2px solid #e6e6e6;
 }
 .content .promise-box li:last-child{
@@ -206,6 +235,7 @@
 
 .content .promise-box li>h2{
     color: #999999;
+    font-size: .3rem;
 }
 .content .promise-box li>label{
     margin-top: 5px;
@@ -315,7 +345,7 @@
 
 
 
-
+/*
 @media (max-width: 1199px){
     html{
         font-size: 75px;
@@ -471,4 +501,4 @@
         background-color: #999;
     }
 
-}
+}*/

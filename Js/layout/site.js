@@ -12,6 +12,12 @@ $(window).resize(function() // 绑定到窗口的这个事件中
     $('html').css('font-size', rem + "px");
 });
 
+// 轮播切换
 function activeNav(a) {
     $(".site-nav \x3e ul \x3e li").eq(a).addClass("active")
-}
+};
+
+$('.menu-btn').click(function(){
+    $('.open').toggleClass('open-nav');
+    $('.pop-bg').toggleClass('show');
+})

@@ -279,7 +279,7 @@
     background-color: rgba(0,0,0,0.3);
 }
 
-.content .major-box li>.major-cover>div>h2{
+.content .major-box .major-cover>div>h2{
     padding: 25px 30px;
     color: #fff;
     font-size: 18px;

@@ -93,6 +93,9 @@
 .group>.letter-box>li>div>p{
 	margin-top: 10px;
 	color: #999999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .group>.version-box{
@@ -286,6 +289,7 @@
 
 .group>.bid-box li>.bid-cover{
 	position: relative;
+	min-height: 75px;
 	padding: 0 15px;
 	color: #A6A6A6;
 	text-align: center;
@@ -366,10 +370,10 @@
 	display: inline-block;
 	font-size: .48rem;
 }
-.group .commit-box li:nth-child(odd),.group .classify-box li:nth-child(odd){
+.group .commit-box li:nth-child(odd) .commit-cover,.group .classify-box li:nth-child(odd) .classify-cover{
 	background-color: #F5F5F5;
 }
-.group .commit-box li:nth-child(even),.group .classify-box li:nth-child(even){
+.group .commit-box li:nth-child(even) .commit-cover,.group .classify-box li:nth-child(even) .classify-cover{
 	background-color: #FBFCFE;
 }
 .group .commit-box li:nth-child(odd) .commit-cover .iconfont{

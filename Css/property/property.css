@@ -55,9 +55,11 @@
 
 .group .want-box li .want-cover .img-box{
 	display: inline-block;
+    min-width: 75px;
+
 }
 .group .want-box li:last-child .want-cover .img-box{
-    width: 100px;
+    max-width: 100px;
 }
 
 .group .want-box li .want-cover h3{
@@ -119,6 +121,11 @@
 }
 .group .means-box li .means-cover p{
 	line-height: 28px;
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 .group >.get-box{

@@ -171,7 +171,6 @@
 	position: relative;
 	width: 100%;
     max-width: 100%;
-	height: 400px;
 	background: url('/Images/bg_trade.jpg') center center no-repeat;
     background-size: cover;
 }
@@ -187,7 +186,6 @@
 }
 
 .group .brand-box .brand-info{
-   	height: 220px;
 	background-color: rgba(120,215,243,.8);
 	color: #fff;
 	text-align: center;
@@ -196,11 +194,11 @@
 .group .brand-box .brand-info li{
 	float: left;
 	width: 33.33333%;
-	padding: 15px;
+	
 }
 
 .group .brand-box .brand-info li .brand-cover{
-	padding: 25px;
+	padding: 15px 0;
 }
 .group .brand-box .brand-info li + li .brand-cover{
 	border-left: 2px solid #fff;
@@ -212,9 +210,13 @@
 	margin-top: 16px;
 	font-size: .18rem;
 }
+
 .group .brand-box .brand-info li .brand-cover>p{
+	overflow: hidden;
 	margin-top: 10px;
 	font-size: .15rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .group .constitute-box li{
@@ -289,7 +291,7 @@
 .group .wander-box li .wander-cover .wander-next{
 	position: absolute;
 	top: 25%;
-	right: 0;
+	right: -15px;
 	font-size: .24rem;
 }
 

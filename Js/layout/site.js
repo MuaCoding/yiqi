@@ -16,8 +16,22 @@ $(window).resize(function() // 绑定到窗口的这个事件中
 function activeNav(a) {
     $(".site-nav \x3e ul \x3e li").eq(a).addClass("active")
 };
-
+// 菜单栏显示隐藏
 $('.menu-btn').click(function(){
     $('.open').toggleClass('open-nav');
     $('.pop-bg').toggleClass('show');
-})
+});
+$(function(){
+    $('.pop-bg').click(function(){
+        if($('.open').hasClass('open-nav')){
+            $('.open').removeClass('open-nav');
+            $('.pop-bg').removeClass('show');
+        }
+    });
+});
+
+
+(function(){
+    jQuery(".slide-box").slide({mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3});
+    jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});
+})();

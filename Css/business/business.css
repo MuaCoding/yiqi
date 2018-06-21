@@ -12,7 +12,7 @@
 	position: relative;
 	width: 100%;
     max-width: 100%;
-	height: 400px;
+	height: 35vh;
 	background: url('/Images/bg_abnormal.jpg') center center no-repeat;
     background-size: cover;
 }
@@ -23,8 +23,8 @@
     right: 0;
     top: 0;
     bottom: 0;
-    width: 600px;
-    height: 200px;
+    width: 75%;
+    height: 25vh;
     margin: auto;
     padding: 20px;
 	background-color: rgba(167,69,87,.8);
@@ -33,7 +33,7 @@
 }
 
 .group .offer-box .offer-cell>h2{
-	margin-top: 25px;
+	margin-top: 7vh;
 	font-size: .4rem;
 }
 .group .offer-box .offer-cell>p{
@@ -45,7 +45,7 @@
 	position: relative;
 	width: 100%;
     max-width: 100%;
-	height: 400px;
+	height: 35vh;
 	background: url('/Images/bg_hang.jpg') center center no-repeat;
     background-size: cover;
 }
@@ -56,8 +56,8 @@
     right: 0;
     top: 0;
     bottom: 0;
-    width: 600px;
-    height: 200px;
+    width: 75%;
+    height: 25vh;
     margin: auto;
     padding: 20px;
 	background-color: rgba(138,181,215,.8);
@@ -66,7 +66,7 @@
 }
 
 .group .hang-box .hang-cell>h2{
-	margin-top: 25px;
+	margin-top: 7vh;
 	font-size: .4rem;
 }
 .group .hang-box .hang-cell>p{
@@ -75,31 +75,33 @@
 }
 
 
-
 .group .overview-box{
 	position: relative;
 	width: 100%;
     max-width: 100%;
-	height: 400px;
+	height: 40vh;
 	color: #fff;
 	background: url('/Images/bg_abnormal.jpg') center center no-repeat;
     background-size: cover;
 }
 .group .overview-box .overview-cell{
-	height: 200px;
+	padding: 10px;
 	text-align: center;
 }
 .line-height{
-	line-height: 200px;
+	line-height: 20vh;
 }
 .group .overview-box .overview-cell>h2{
 	display: inline-block;
 	font-size: .4rem;
 }
 .group .overview-box .overview-cell>h3{
-	display: inline-block;
-	line-height: 65px;
+	display: block;
+	overflow: hidden;
+	line-height: 50px;
 	font-size: .16rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .group .overview-box .overview-cell.bg-overview{
 	background-color: rgba(74,117,137,.8);
@@ -155,11 +157,14 @@
 .group .process-box li .process-cover h3{
 	width: 80px;
 	padding: 10px;
-	font-size: .18rem;
 	border-bottom: 1px solid #a6a6a6;
+	font-size: .18rem;
 }
 .group .process-box li .process-cover p{
+	overflow: hidden;
 	margin-top: 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .group .process-box li .process-cover .next-tag{
     position: absolute;
@@ -271,7 +276,6 @@
 	padding: 0 20px;
 	color: #436e82;
 	font-size: .48rem;
-	-webkit-text-stroke: .3px #fff;
 	letter-spacing: 3px;
 	text-align: center;
 }
@@ -339,7 +343,12 @@
 }
 
 .group .worth-box li .worth-cover p{
+	overflow : hidden;
 	margin-top: 30px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 /*变更服务*/

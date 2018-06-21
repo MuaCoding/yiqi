@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+
+
 .banner-box{
     overflow: hidden;
     width: 100%;
@@ -121,28 +124,21 @@
 }
 
 
+#owl-demo .item{
+    position: relative;
+    margin: 10px;
+}
+#owl-demo .item img{
+    display: block;
+   /* width: 100%;
+    height: auto;*/
+}
+
 .slide-box{
     position: relative;
-    width: 1020px;
-    height: 250px;
+    width: 960px;
     margin: 25px auto;
     background-color: #fff;
-}
-
-.slide-box>.slide-swiper,.slide-box>.slide-swiper>.swiper-wrapper{
-    height: 250px
-}
-
-.slide-box>.slide-swiper>.swiper-wrapper>.swiper-slide{
-    display: flex;
-    background-color: #eee;
-    background: url(/Images/bg_qualification.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -159,7 +155,7 @@
     cursor: pointer;
 }
 .slide-box >.control-item>i{
-    font-size: .18rem;
+    font-size: 22px;
     color: #b3b3b3;
 }
 .slide-box >.control-item.control-left{
@@ -168,14 +164,30 @@
 .slide-box >.control-item.control-right{
     right: -80px;
 }
-.slide-box>.slide-swiper>.swiper-wrapper>.swiper-slide{
-    padding: 15px;
-}
-.slide-box>.slide-swiper>.swiper-wrapper>.swiper-slide >.slide-con{
+
+.slide-box .slide-cover{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
     color: #fff;
     text-align: left;
+    justify-content:center;
+    flex-direction:column;
 }
-.slide-box>.slide-swiper>.swiper-wrapper>.swiper-slide >.slide-con>.link{
+
+.slide-box .slide-cover p{
+    margin-top: 20px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.slide-box .slide-cover .link{
     display: inline-block;
     margin-top: 10px;
     padding-right: 15px;
@@ -184,7 +196,7 @@
     cursor: pointer;
 }
 
-.slide-box>.slide-swiper>.swiper-wrapper>.swiper-slide >.slide-con>.link>em{
+.slide-box .slide-cover .link>em{
     margin-left: 5px;
 }
 

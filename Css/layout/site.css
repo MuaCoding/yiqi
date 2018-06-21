@@ -683,7 +683,9 @@ footer{
     .content .slide-box >.control-item.control-right{
         right: -12px;
     }
-
+    .content .slide-box >.control-item {
+        display: none;
+    }
     /*关于我们*/
     .content .about-box>.img-box{
         display: none !important;
@@ -898,18 +900,13 @@ footer{
         width: 100%;
         height: auto;
     }
-    .content .slide-box>.slide-swiper,
-    .slide-box>.slide-swiper>.swiper-wrapper{
-        height: auto !important;
-    }
-
-    .slide-box>.slide-swiper>.swiper-wrapper>.swiper-slide >.slide-con>h1{
+    
+    .content .slide-box .slide-cover h1{
         font-size: 22px;
     }
-    .slide-box>.slide-swiper>.swiper-wrapper>.swiper-slide{
-        margin-right: 10px !important;
+    .content .slide-box .slide-cover p{
+       -webkit-line-clamp: 2;
     }
-
     .content .group .classify-box li .classify-cover .iconfont{
         font-size: 35px;
     }
@@ -1291,9 +1288,13 @@ footer{
         padding: 0;
     }
     /*工商*/
+    .content .group .hang-box,.content .group .offer-box{
+        height: 300px;
+    }
     .content .group .offer-box .offer-cell,
     .content .group .hang-box .hang-cell{
         padding: 25px 5px;
+        height: 150px;
     }
     .content .group .offer-box .offer-cell>h2,
     .content .group .hang-box .hang-cell>h2{
@@ -1399,6 +1400,18 @@ footer{
     .content .group>.letter-box>li>div>.iconfont{
         margin-left: 15px;
         font-size: 28px;
+    }
+    .content .slide-box .slide-cover{
+        padding: 5px;
+    }
+    .content .slide-box .slide-cover h1 {
+        font-size: 16px;
+    }
+    .content .slide-box .slide-cover p{
+        margin-top: 5px;
+    }
+    .content .slide-box .slide-cover .link{
+        line-height: 18px;
     }
     /*电信增值*/
     .content .group .classify-box li{

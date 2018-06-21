@@ -29,9 +29,3 @@ $(function(){
         }
     });
 });
-
-
-(function(){
-    jQuery(".slide-box").slide({mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3});
-    jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});
-})();

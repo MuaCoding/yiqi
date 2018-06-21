@@ -11,7 +11,6 @@
             pagination: ".banner-swiper .swiper-pagination",
 
         });
-        console.log(a)
         $(".banner-box .control-item.control-left").click(function() {
             a.slidePrev()
         });
@@ -19,34 +18,6 @@
             a.slideNext()
         });
 
-        var b = new Swiper(".tab-gov.swiper-container",{
-            pagination: ".tab-gov .pagination",
-            onSwiperCreated: function(a) {
-                $("img.lazy").lazy()
-            },
-            noSwiping: !0,
-            noSwipingClass: "stop-swiping"
-        });
-        $(".tab-gov .control-item.control-left").click(function() {
-            b.swipePrev()
-        });
-        $(".tab-gov .control-item.control-right").click(function() {
-            b.swipeNext()
-        });
-        var c = new Swiper(".tab-etp.swiper-container",{
-            pagination: ".tab-etp .pagination",
-            onSwiperCreated: function(a) {
-                $("img.lazy").lazy()
-            },
-            noSwiping: !0,
-            noSwipingClass: "stop-swiping"
-        });
-        $(".tab-etp .control-item.control-left").click(function() {
-            c.swipePrev()
-        });
-        $(".tab-etp .control-item.control-right").click(function() {
-            c.swipeNext()
-        });
         var d = new Swiper(".tab-social.swiper-container",{
             pagination: ".tab-social .pagination",
             onSwiperCreated: function(a) {

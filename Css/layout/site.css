@@ -494,6 +494,40 @@ footer{
     background: rgba(0,0,0,.8);
 }
 
+/*回到顶部*/
+#scroll-top {
+    display: none;
+    position: fixed;
+    bottom: 370px;
+    left: 50%;
+    margin-left: 620px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #eee;
+    background-color: #fff;
+    cursor: pointer;
+}
+#scroll-top>i {
+    line-height: 40px;
+    color: #989fa5;
+}
+#scroll-top>span {
+    display: none;
+    padding: 5px;
+    line-height: 15px;
+    font-size: 13px;
+    color: #42454a;
+}
+
+#scroll-top:hover>i {
+    display: none;
+    color: #29a739;
+}
+#scroll-top:hover>span {
+    display: inline-block;
+}
 /*css3*/
 
 .group .commit-box li:hover i.iconfont, .group .classify-box li:hover i.iconfont{

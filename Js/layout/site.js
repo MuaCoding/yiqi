@@ -16,6 +16,23 @@ $(window).resize(function() // 绑定到窗口的这个事件中
 function activeNav(a) {
     $(".site-nav \x3e ul \x3e li").eq(a).addClass("active")
 };
+
+(function(){
+    (function() {
+        500 <= $(window).scrollTop() && $("#scroll-top").fadeIn();
+        var a;
+        $(window).scroll(function() {
+            clearTimeout(a);
+            a = setTimeout(function() {
+                500 <= $(window).scrollTop() ? $("#scroll-top").fadeIn() : $("#scroll-top").fadeOut()
+            }, 200)
+        });
+        $("#scroll-top").on("click", function() {
+            $(window).scrollTop(0)
+        })
+    }
+    )();
+})();
 // 菜单栏显示隐藏
 $('.menu-btn').click(function(){
     $('.open').toggleClass('open-nav');

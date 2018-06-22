@@ -62,10 +62,10 @@ $(document).ready(function() {
 
     });
 
-    $("slide-box .control-right").click(function(){
+    $(".slide-box .control-right").click(function(){
         owl.trigger('owl.next');
     });
-    $("slide-box .control-left").click(function(){
+    $(".slide-box .control-left").click(function(){
         owl.trigger('owl.prev');
     });
  

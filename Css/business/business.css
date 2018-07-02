@@ -79,13 +79,14 @@
 	position: relative;
 	width: 100%;
     max-width: 100%;
-	height: 40vh;
+	height: 400px;
 	color: #fff;
 	background: url('/Images/bg_abnormal.jpg') center center no-repeat;
     background-size: cover;
 }
 .group .overview-box .overview-cell{
-	padding: 10px;
+	line-height: 200px;
+	padding: 0 10px;
 	text-align: center;
 }
 .line-height{
@@ -105,6 +106,9 @@
 }
 .group .overview-box .overview-cell.bg-overview{
 	background-color: rgba(74,117,137,.8);
+}
+.group .overview-box .overview-cell .overview-cover{
+	padding: 20px 0;
 }
 .group .overview-box .overview-cell ul li{
 	float: left;

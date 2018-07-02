@@ -12,8 +12,7 @@
 }
 
 .banner-box >.swiper-container, .banner-box >.swiper-container >.swiper-wrapper {
-    height: auto;
-    min-height: 360px;
+    height: 360px;
 }
 
 

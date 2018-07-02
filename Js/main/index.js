@@ -46,6 +46,24 @@
 }
 )();
 
+$(document).ready(function(){
+    var a = new Swiper(".banner-swiper",{
+        autoplay: 3E3,
+        loop : true,
+        navigation: {
+            nextEl: '.control-right',
+            prevEl: '.control-left',
+        },
+        pagination: ".banner-swiper .swiper-pagination",
+
+    });
+    $(".banner-box .control-item.control-left").click(function() {
+        a.slidePrev()
+    });
+    $(".banner-box .control-item.control-right").click(function() {
+        a.slideNext()
+    });
+})
 
 $(document).ready(function() {
     var owl = $("#owl-demo");

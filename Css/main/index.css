@@ -3,7 +3,7 @@
 
 
 
-.banner-box{
+.banner-box {
     overflow: hidden;
     width: 100%;
     /*height: 360px;*/
@@ -11,12 +11,13 @@
     /*box-shadow: 0 1px 2px rgba(0,0,0,0.1);*/
 }
 
-.banner-box >.swiper-container, .banner-box >.swiper-container >.swiper-wrapper {
+.banner-box>.swiper-container,
+.banner-box>.swiper-container>.swiper-wrapper {
     height: 360px;
 }
 
 
-.banner-box >.swiper-container>.control-item{
+.banner-box>.swiper-container>.control-item {
     display: inline-block;
     position: absolute;
     height: 70px;
@@ -24,7 +25,7 @@
     top: 50%;
     margin-top: -35px;
     z-index: 2;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     line-height: 70px;
     cursor: pointer;
@@ -37,43 +38,45 @@
     -ms-transition: all 0.1s ease-in-out
 }
 
-.banner-box >.swiper-container>.control-item>i{
+.banner-box>.swiper-container>.control-item>i {
     font-size: 18px;
     color: #fff;
 }
 
-.banner-box >.swiper-container>.control-left{
+.banner-box>.swiper-container>.control-left {
     left: -35px;
-    
 }
-.banner-box >.swiper-container>.control-right{
+
+.banner-box>.swiper-container>.control-right {
     right: -35px;
 }
 
-.banner-box >.swiper-container:hover>.control-item{
+.banner-box>.swiper-container:hover>.control-item {
     opacity: 1;
 }
-.banner-box >.swiper-container:hover>.control-item.control-left{
+
+.banner-box>.swiper-container:hover>.control-item.control-left {
     left: 95px;
 }
-.banner-box >.swiper-container:hover>.control-item.control-right{
+
+.banner-box>.swiper-container:hover>.control-item.control-right {
     right: 95px;
 }
 
 
-.banner-box >.swiper-container >.swiper-wrapper >.swiper-slide >img{
+.banner-box>.swiper-container>.swiper-wrapper>.swiper-slide>img {
     position: relative;
     width: 100%;
     min-height: 100%;
     z-index: 1;
 }
 
-.banner .mobile-banner{
+.banner .mobile-banner {
     display: none;
 }
 
 
-.index-main-content{
+.index-main-content {
     position: relative;
     height: 100%;
     min-width: 100%;
@@ -88,14 +91,15 @@
     font-weight: 400;
     text-align: center;
 }
-.index-title .small-title{
+
+.index-title .small-title {
     position: relative;
     margin-top: 20px;
     color: #666;
     font-size: .15rem;
 }
 
-.index-title .small-title >.marker{
+.index-title .small-title>.marker {
     position: relative;
     width: 240px;
     padding: 0 50px;
@@ -105,7 +109,8 @@
     text-align: center;
 }
 
-.index-title .small-title >.marker:before, .index-title .small-title >.marker:after {
+.index-title .small-title>.marker:before,
+.index-title .small-title>.marker:after {
     content: '';
     display: block;
     position: absolute;
@@ -115,26 +120,27 @@
     background: #b5b5b5;
 }
 
-.index-title .small-title >.marker:before {
+.index-title .small-title>.marker:before {
     left: 0;
 }
 
-.index-title .small-title >.marker:after {
+.index-title .small-title>.marker:after {
     right: 0;
 }
 
 
-#owl-demo .item{
+#owl-demo .item {
     position: relative;
     margin: 10px;
 }
-#owl-demo .item img{
+
+#owl-demo .item img {
     display: block;
-   /* width: 100%;
+    /* width: 100%;
     height: auto;*/
 }
 
-.slide-box{
+.slide-box {
     position: relative;
     width: 960px;
     margin: 25px auto;
@@ -142,7 +148,7 @@
 }
 
 
-.slide-box >.control-item {
+.slide-box>.control-item {
     display: inline-block;
     position: absolute;
     width: 45px;
@@ -154,18 +160,21 @@
     text-align: center;
     cursor: pointer;
 }
-.slide-box >.control-item>i{
+
+.slide-box>.control-item>i {
     font-size: 22px;
     color: #b3b3b3;
 }
-.slide-box >.control-item.control-left{
+
+.slide-box>.control-item.control-left {
     left: -80px;
 }
-.slide-box >.control-item.control-right{
+
+.slide-box>.control-item.control-right {
     right: -80px;
 }
 
-.slide-box .slide-cover{
+.slide-box .slide-cover {
     display: flex;
     position: absolute;
     top: 0;
@@ -175,19 +184,20 @@
     padding: 20px;
     color: #fff;
     text-align: left;
-    justify-content:center;
-    flex-direction:column;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.slide-box .slide-cover p{
+.slide-box .slide-cover p {
     margin-top: 20px;
-    overflow : hidden;
+    overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
-.slide-box .slide-cover .link{
+
+.slide-box .slide-cover .link {
     display: inline-block;
     margin-top: 10px;
     padding-right: 15px;
@@ -196,7 +206,7 @@
     cursor: pointer;
 }
 
-.slide-box .slide-cover .link>em{
+.slide-box .slide-cover .link>em {
     margin-left: 5px;
 }
 
@@ -205,14 +215,14 @@
     margin-top: 30px;
 }
 
-.content .capital-box li{
+.content .capital-box li {
     float: left;
     width: 25%;
     padding: 15px;
 }
 
 
-.content .capital-box li .capital-cover{
+.content .capital-box li .capital-cover {
     display: block;
     padding: 25px;
     color: #fff;
@@ -220,19 +230,22 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-.content .capital-box li .capital-cover p{
+
+.content .capital-box li .capital-cover p {
     margin-top: 15px;
 }
-.content .capital-box li .capital-cover a{
+
+.content .capital-box li .capital-cover a {
     display: inline-block;
     margin-top: 15px;
     color: #fff;
 }
-.content .promise-box{
+
+.content .promise-box {
     margin: 30px 15px 0;
 }
 
-.content .promise-box li{
+.content .promise-box li {
     position: relative;
     float: left;
     overflow: hidden;
@@ -241,23 +254,27 @@
     margin-bottom: 15px;
     border-right: 2px solid #e6e6e6;
 }
-.content .promise-box li:last-child{
+
+.content .promise-box li:last-child {
     margin-right: 0;
 }
 
-.content .promise-box li>h2{
+.content .promise-box li>h2 {
     color: #999999;
     font-size: .3rem;
 }
-.content .promise-box li>label{
+
+.content .promise-box li>label {
     margin-top: 5px;
     color: #39bfef;
 }
-.content .promise-box li>p{
+
+.content .promise-box li>p {
     margin-top: 5px;
     color: #b5b5b5;
 }
-.content .promise-box li>.num{
+
+.content .promise-box li>.num {
     position: absolute;
     top: 5px;
     right: -15px;
@@ -265,47 +282,46 @@
     font-size: 58px;
 }
 
-.content .major-box{
+.content .major-box {
     margin-top: 30px;
 }
 
-.content .major-box li{
+.content .major-box li {
     position: relative;
     float: left;
     overflow: hidden;
     width: 25%;
     height: 262px;
     padding: 15px;
-    
 }
 
-.content .major-box li>.major-cover{
+.content .major-box li>.major-cover {
     height: 100%;
     background: url(/Images/bg_major.jpg) no-repeat top center;
     background-size: cover;
     cursor: pointer;
 }
 
-.content .major-box li>.major-cover>div{
+.content .major-box li>.major-cover>div {
     height: 100%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-.content .major-box .major-cover>div>h2{
+.content .major-box .major-cover>div>h2 {
     padding: 25px 30px;
     color: #fff;
     font-size: 18px;
     text-align: right;
-    word-spacing: 8px; 
+    word-spacing: 8px;
     letter-spacing: 3px;
 }
 
 
-.content .about-box{
+.content .about-box {
     margin-top: 30px;
 }
 
-.content .about-box>.img-box{
+.content .about-box>.img-box {
     display: inline-block;
     float: left;
     overflow: hidden;
@@ -316,27 +332,34 @@
     border-radius: 3px;
 }
 
-.content .about-box>.about-info{
+.content .about-box>.about-info {
     display: inline-block;
     overflow: hidden;
     float: left;
     width: 885px;
-    max-height: 150px;
+    max-height: 149px;
     margin: 15px 0;
-    padding: 15px 0; 
+    padding: 15px 0;
     line-height: 26px;
     color: #737373;
     font-size: 16px;
 }
 
+.content .about-box>.about-info.linesClamp p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
-.content >.btn-box{
+
+.content>.btn-box {
     display: block;
     margin-top: 15px;
     text-align: center;
 }
 
-.content >.btn-box>a{
+.content>.btn-box>a {
     display: inline-block;
     width: 120px;
     margin: 0 auto;
@@ -346,7 +369,7 @@
     text-align: center;
 }
 
-.content .cooperation-box{
+.content .cooperation-box {
     margin-top: 30px;
 }
 
@@ -354,6 +377,8 @@
     float: left;
     width: 20%;
 }
+
+
 
 
 

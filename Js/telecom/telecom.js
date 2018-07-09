@@ -7,3 +7,10 @@
     })
 }
 )();
+
+// $(function(){
+//     jQuery.noConflict();
+//     jQuery(document).ready(function(){
+//         $("img.zoom_image").jqueryzoom();
+//     });
+// });

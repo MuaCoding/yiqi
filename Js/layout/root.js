@@ -1,5 +1,5 @@
-var apiUrl = "https://api.lhcharity.com"
-  , mobileSite = "http://m.lhcharity.com";
+var apiUrl = ""
+  , mobileSite = "";
 jQuery.support.cors = !0;
 (function(a) {
     a.method = function(b, c, d, e, f, g, h, k) {
@@ -33,11 +33,7 @@ jQuery.support.cors = !0;
     }
 }
 )(jQuery);
-(function() {
-    $("img.lazy").lazy();
-    // $("html").hasClass("ua-mobile") && (window.location.href = mobileSite)
-}
-)();
+
 function setCookie(a, b) {
     var c = new Date;
     c.setTime(new Date(c.getTime() + 6048E5));

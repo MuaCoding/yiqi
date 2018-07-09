@@ -177,7 +177,7 @@
 				</div>
 			</div> -->
 			<div class="button">
-				<button onclick="contact.create();" class="btn btn-default btn-md">提交</button>
+				<button type="button" onclick="contact.create();" class="btn btn-default btn-md">提交</button>
 			</div>
 		</form>
 			
@@ -187,6 +187,14 @@
         <i class="icon-up"></i>
         <span>返回顶部</span>
     </div>
+    <div id="FullScreenShade" style="display: none;">
+      <div>
+        <span>
+          <img src="/Images/spinner.gif" alt="加载中">
+        </span>
+      </div>
+    </div>
+
 	<footer>
         <div class="footer">
             <ul class="bottom-list">
@@ -228,12 +236,9 @@
 
 	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/cssuseragent/2.1.31/cssua.min.js"></script>
-    <script src="https://cdn.bootcss.com/placeholders/4.0.1/placeholders.min.js"></script>
-    <script src="https://cdn.bootcss.com/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=xvemI2xkfz9ccj1Tq1ulBlIt"></script>
 	<script src="http://map.qq.com/api/js?v=2.exp&key=JLVBZ-7HKWQ-L6J5L-GRSSY-BOMIO-ZEBN6&libraries=convertor"></script>
-	<script src="/Plugin/layui/layui.js"></script>
+	<script src="/Plugin/layer/layer.js"></script>
     <script src="/Js/layout/bootstrap.min.js"></script>
     <script src="/Js/layout/map.js"></script>
     <script src="/Js/layout/root.js"></script>

@@ -17,7 +17,7 @@ function activeNav(a) {
     $(".site-nav \x3e ul \x3e li").eq(a).addClass("active")
 };
 
-(function(){
+$(function(){
     (function() {
         500 <= $(window).scrollTop() && $("#scroll-top").fadeIn();
         var a;
@@ -32,12 +32,13 @@ function activeNav(a) {
         })
     }
     )();
-})();
+});
 // 菜单栏显示隐藏
 $('.menu-btn').click(function(){
     $('.open').toggleClass('open-nav');
     $('.pop-bg').toggleClass('show');
 });
+
 $(function(){
     $('.pop-bg').click(function(){
         if($('.open').hasClass('open-nav')){
@@ -46,3 +47,23 @@ $(function(){
         }
     });
 });
+
+
+// 全屏加载中
+loadShade = {
+  show: function () {
+    $("#FullScreenShade").fadeIn();
+  },
+  hide: function () {
+    $("#FullScreenShade").fadeOut();
+  }
+};
+
+
+
+// $(function(){
+//     jQuery.noConflict();
+//     jQuery(document).ready(function(){
+//         $("img.zoom_image").jqueryzoom();
+//     });
+// });

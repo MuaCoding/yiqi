@@ -88,7 +88,7 @@
             <div class="tab">游戏版号</div>
         </div>
         <div class="wrapper culture-item">
-            <div class="group of">
+            <div class="group">
                 <div class="little-title">
                     <span>
                         <i class="bg-primary"></i>
@@ -97,9 +97,9 @@
                     <h3>谁需要办理网络文化经营许可证</h3>
                 </div>
                 <div class="need-box clearfix">
-                    <div class="img-box">
-                        <img src="/Images/culture.jpg" alt="">
-                    </div>
+                    <a href="../Images/culture.jpg" class="img-box">
+                        <img class="zoom_image" src="../Images/culture.jpg" alt="">
+                    </a>
                     <div class="need-info">音乐娱乐产品、音像制品、游戏产品 (虚拟货币交易/发行)、游戏产品、演出（剧）节目/网络表演、演出剧（节）目、美术品/艺术品、动漫/动画产品、动画、展览、比赛活动</div>
                 </div>
             </div>
@@ -689,16 +689,17 @@
     </footer>
 
 	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/cssuseragent/2.1.31/cssua.min.js"></script>
-    <script src="https://cdn.bootcss.com/placeholders/4.0.1/placeholders.min.js"></script>
-    <script src="https://cdn.bootcss.com/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
     <script src="/Plugin/layui/layui.js"></script>
+    <script src="/Plugin/jqzoom.js"></script>
     <script src="/Js/layout/bootstrap.min.js"></script>
     <script src="/Js/layout/root.js"></script>
     <script src="/Js/layout/site.js"></script>
 
     <script src="/Js/culture/culture.js"></script>
+    <!-- <script src="/Js/layout/bootstrap.min.js"></script> -->
+    <script type="text/javascript">
+    $(document).ready(function(){ $("img.zoom_image").jqueryzoom({xzoom: 300,yzoom: 300}); });
+    </script>
 
 </body>
 </html>

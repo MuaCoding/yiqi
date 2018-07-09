@@ -89,7 +89,7 @@
         </div>
         <!-- 互联网信息服务业务 -->
         <div class="wrapper telecom-item">
-            <div class="group of">
+            <div class="group">
                 <div class="little-title">
                     <span>
                         <i class="bg-primary"></i>
@@ -98,9 +98,9 @@
                     <h3>什么是ICP许可证</h3>
                 </div>
                 <div class="need-box clearfix">
-                    <div class="img-box">
-                        <img src="/Images/ICP.jpg" alt="">
-                    </div>
+                    <a href="/Images/ICP.jpg" class="img-box">
+                        <img class="zoom_image" src="/Images/ICP.jpg" alt="">
+                    </a>
                     <div class="need-info">中华人民共和国电信与信息服务业务经营许可证（简称：ICP许可证）是指一般性经营性网站的主办者向当地区县申请的证书证明，即《中华人民共和国电信与信息服务业务经营许可证》。经营性ICP，经营的内容主要是网上广告、有偿提供特定信息内容、电子商务及其它网上应用服务。</div>
                 </div>
             </div>
@@ -317,43 +317,7 @@
                     </span>
                     <h3>关于ICP许可证，您可能需要这些服务</h3>
                 </div>
-                <!-- <ul class="service-box clearfix">
-                    <li>
-                        <div class="service-cover">
-                            <div class="img-box">
-                                <img src="/Images/ICP-1.png">
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="service-cover">
-                            <div class="img-box">
-                                <img src="/Images/ICP-2.png">
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="service-cover">
-                            <div class="img-box">
-                                <img src="/Images/ICP-3.png">
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="service-cover">
-                            <div class="img-box">
-                                <img src="/Images/ICP-4.png">
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="service-cover">
-                            <div class="img-box">
-                                <img src="/Images/ICP-5.png">
-                            </div>
-                        </div>
-                    </li>
-                </ul> -->
+                
                 <ul class="classify-box clearfix">
                     <li>
                         <div class="classify-cover">
@@ -483,7 +447,7 @@
         </div>
         <!-- EDI-许可证业务-->
         <div class="wrapper telecom-item">
-            <div class="group of">
+            <div class="group">
                 <div class="little-title">
                     <span>
                         <i class="bg-primary"></i>
@@ -492,9 +456,9 @@
                     <h3>什么是EDI许可证</h3>
                 </div>
                 <div class="need-box clearfix">
-                    <div class="img-box">
-                        <img src="/Images/EDI.jpg" alt="">
-                    </div>
+                    <a href="../Images/EDI.jpg" class="img-box">
+                        <img class="zoom_image" src="/Images/EDI.jpg" alt="">
+                    </a>
                     <div class="need-info">全称：在线数据处理与交易处理业务许可证</div>
                 </div>
             </div>
@@ -824,7 +788,7 @@
         </div>
         <!-- SP-许可证业务-->
         <div class="wrapper telecom-item">
-            <div class="group of">
+            <div class="group">
                 <div class="little-title">
                     <span>
                         <i class="bg-primary"></i>
@@ -833,9 +797,9 @@
                     <h3>什么是SP许可证</h3>
                 </div>
                 <div class="need-box clearfix">
-                    <div class="img-box">
-                        <img src="/Images/SP.jpg" alt="">
-                    </div>
+                    <a href="../Images/SP.jpg" class="img-box">
+                        <img class="zoom_image" src="/Images/SP.jpg" alt="">
+                    </a>
                     <div class="need-info">全称：增值电信业务经营许可证-移动网信息服务</div>
                 </div>
             </div>
@@ -1200,16 +1164,15 @@
     </footer>
 
 	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/cssuseragent/2.1.31/cssua.min.js"></script>
-    <script src="https://cdn.bootcss.com/placeholders/4.0.1/placeholders.min.js"></script>
-    <script src="https://cdn.bootcss.com/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+    <!-- <script src="/Plugin/jquery.js"></script> -->
     <script src="/Plugin/layui/layui.js"></script>
-    <script src="/Js/layout/bootstrap.min.js"></script>
-    <script src="/Js/layout/root.js"></script>
+    <script src="/Plugin/jqzoom.js"></script>
+    <!-- <script src="/Js/layout/bootstrap.min.js"></script> -->
     <script src="/Js/layout/site.js"></script>
-
+    <script src="/Js/layout/root.js"></script>
     <script src="/Js/telecom/telecom.js"></script>
-
+    <script type="text/javascript">
+    $(document).ready(function(){ $("img.zoom_image").jqueryzoom({xzoom: 300,yzoom: 300}); });
+    </script>
 </body>
 </html>

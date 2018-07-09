@@ -149,20 +149,20 @@
 			<div class="input-group">
 				<div class="input-cell">
 					<label><span style="color: red">*</span>您的姓名</label>
-					<input type="text" class="input-control">
+					<input id="name" type="text" class="input-control">
 				</div>
 				<div class="input-cell">
 					<label><span style="color: red">*</span>联系电话</label>
-					<input type="text" class="input-control">
+					<input id="phone" type="text" class="input-control">
 				</div>
 				<div class="input-cell">
 					<label><span style="color: #fff">*</span>邮箱地址</label>
-					<input type="text" class="input-control">
+					<input id="email" type="text" class="input-control">
 				</div>
 			</div>
 			<div class="input-textarea">
 				<label class="textarea-label"><span style="color: red">*</span>留言内容</label>
-				<textarea class="textarea-control" rows="6"></textarea>
+				<textarea id="content" class="textarea-control" rows="6"></textarea>
 			</div>
 			<!-- <div class="code-group clearfix">
 				<div class="code-cover">
@@ -177,7 +177,7 @@
 				</div>
 			</div> -->
 			<div class="button">
-				<button class="btn btn-default btn-md">提交</button>
+				<button onclick="contact.create();" class="btn btn-default btn-md">提交</button>
 			</div>
 		</form>
 			
@@ -238,7 +238,6 @@
     <script src="/Js/layout/map.js"></script>
     <script src="/Js/layout/root.js"></script>
     <script src="/Js/layout/site.js"></script>
-
     <script src="/Js/contact/contact.js"></script>
 </body>
 </html>

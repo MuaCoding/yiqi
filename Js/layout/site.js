@@ -48,6 +48,11 @@ $(function(){
     });
 });
 
+$(function(){
+    $("#weibo").mouseover(function () { $(".qr-weibo").stop().fadeIn(); }).mouseleave(function () { $(".qr-weibo").stop().fadeOut(); });
+     $("#wechat").mouseover(function () { $(".qr-wechat").stop().fadeIn(); }).mouseleave(function () { $(".qr-wechat").stop().fadeOut(); });
+});
+
 
 // 全屏加载中
 loadShade = {

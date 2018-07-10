@@ -98,8 +98,8 @@
                     <h3>什么是ICP许可证</h3>
                 </div>
                 <div class="need-box clearfix">
-                    <a href="/Images/ICP.jpg" class="img-box">
-                        <img class="zoom_image" src="/Images/ICP.jpg" alt="">
+                    <a href="/Images/ICP.jpg" class="img-box jqzoom">
+                        <img class="zoom_image" src="/Images/ICP.jpg" jqimg="/Images/ICP.jpg" alt="">
                     </a>
                     <div class="need-info">中华人民共和国电信与信息服务业务经营许可证（简称：ICP许可证）是指一般性经营性网站的主办者向当地区县申请的证书证明，即《中华人民共和国电信与信息服务业务经营许可证》。经营性ICP，经营的内容主要是网上广告、有偿提供特定信息内容、电子商务及其它网上应用服务。</div>
                 </div>
@@ -1144,8 +1144,16 @@
                 </li>
                 <li>
                     <p>关注我们</p>
-                    <a href="#">官方微博</a>
-                    <a href="#">官方微信</a>
+                    <a href="#" id="weibo">官方微博
+                        <div class="qr-weibo">
+                            <img src="/images/vs.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="#" id="wechat">官方微信
+                        <div class="qr-wechat">
+                            <img src="/images/logo.png" alt="">
+                        </div>
+                    </a>
                 </li>
             </ul>
             <dl class="company-num">
@@ -1167,12 +1175,20 @@
     <!-- <script src="/Plugin/jquery.js"></script> -->
     <script src="/Plugin/layui/layui.js"></script>
     <script src="/Plugin/jqzoom.js"></script>
+    <!-- <script src="/Plugin/jqzoom.js"></script> -->
     <!-- <script src="/Js/layout/bootstrap.min.js"></script> -->
     <script src="/Js/layout/site.js"></script>
     <script src="/Js/layout/root.js"></script>
     <script src="/Js/telecom/telecom.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){ $("img.zoom_image").jqueryzoom({xzoom: 300,yzoom: 300}); });
+    // $("img.jqzoom").jqueryzoom({
+    //     xzoom: 400, //放大图的宽度(默认是 200)
+    //     yzoom: 400, //放大图的高度(默认是 200)
+    //     offset: 10, //离原图的距离(默认是 10)
+    //     position: "right", //放大图的定位(默认是 "right")
+    //     preload: 1
+    // });
     </script>
 </body>
 </html>
